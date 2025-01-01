@@ -66,3 +66,5 @@ with open(json_file_path, 'w', encoding='utf-8') as json_file:
     json.dump(all_pdf_urls, json_file, indent=4, ensure_ascii=False)
 
 print(f"Tüm PDF linkleri JSON dosyasına kaydedildi: {json_file_path}")
+
+ 
